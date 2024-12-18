@@ -1,7 +1,3 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const path = require('path');
-const cors = require('cors');
 const fileRoutes = require('./routes/fileRoutes');
 const submissionRoutes = require('./routes/submissionRoutes');
 const { authMiddleware } = require('./middleware/authMiddleware');
